@@ -1,0 +1,38 @@
+:root{
+    --verde:#17A11B;
+}
+
+.bg-navbar{
+    background-color: var(--verde);
+}
+
+.titulo{
+    color: white;
+}
+
+
+
+.item-list{
+    display: flex;
+}
+
+div .container-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 225, 225);
+    border-radius: 10px;
+}
+.container-btn{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+}
+.container-btn button{
+    padding: 10px 120px;
+}
+span{
+    color: var(--verde);
+}
